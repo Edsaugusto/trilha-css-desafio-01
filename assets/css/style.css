@@ -90,14 +90,12 @@ button{
     background-size: 100%;
     background-attachment: fixed;
     border: #1472B7 1px solid;
-    position: absolute;
 }
 #transform-world p{
     width: 270px;
     height: 141px;
-    position: inherit;
-    top: 250px;
-    left: 120px;
+    margin-top: 255px;
+    margin-left: 150px;
     font-weight: 900;
     font-size: 40px;
     line-height: 47px;
@@ -119,4 +117,7 @@ footer{
     text-align: center;
     padding: 50px;
     box-sizing: border-box;
+}
+footer a{
+    text-decoration: none;
 }
