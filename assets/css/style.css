@@ -9,6 +9,7 @@ p{
     height: 605px;
     background-image: url('/assets/images/banner.png'), linear-gradient(180deg, rgb(0, 0, 0) , rgb(4, 62, 87),rgb(0, 0, 0));
     text-align: center;
+    border: #1472B7 1px solid;
 }
 .banner h1{
     -webkit-background-clip: text;
@@ -16,9 +17,23 @@ p{
     background-clip: text;
     color: transparent;
 }
+button{
+    width: 300px;
+    height: 50px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: #31A8DD 1px solid;
+}
 #course-content{
     text-align: center;
     background-color: #000;
+    width: 1440px;
 }
 #course-content h2{
     color: #33A8DB;
@@ -49,10 +64,12 @@ p{
     background-image: url('../images/woman-code.png'), linear-gradient(#000, #000);
     background-size: 100%;
     background-attachment: fixed;
+    border: #1472B7 1px solid;
 }
 #professional-challenges{
     text-align: center;
     background-color: #000;
+    width: 1440px;
 }
 #professional-challenges h2{
     color: #33A8DB;
@@ -60,10 +77,9 @@ p{
 footer{
     background-image: linear-gradient(#000, rgb(4, 62, 87));
     width: 1440px;
-    height: 120px;
+    height: 150px;
     border: #1472B7 1px solid;
-    display: inline-block;
     text-align: center;
-    padding: 25px;
+    padding: 50px;
     box-sizing: border-box;
 }
