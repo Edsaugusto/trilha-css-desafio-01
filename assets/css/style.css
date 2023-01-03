@@ -90,6 +90,18 @@ button{
     background-size: 100%;
     background-attachment: fixed;
     border: #1472B7 1px solid;
+    position: absolute;
+}
+#transform-world p{
+    width: 270px;
+    height: 141px;
+    position: inherit;
+    top: 250px;
+    left: 120px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+
 }
 #professional-challenges{
     text-align: center;
