@@ -4,8 +4,7 @@
 .banner{
     width: 1440px;
     height: 605px;
-    background-color: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
-    background-image: url('/assets/images/banner.png');
+    background-image: url('/assets/images/banner.png'), linear-gradient(180deg, rgb(0, 0, 0) , rgb(9, 87, 121),rgb(0, 0, 0));
     text-align: center;
 }
 .logo{
@@ -16,7 +15,10 @@
 }
 #transform-world{
     color: #fff;
-    filter: drop-shadow(3px 2px 0px #33A8DB);
-    width: 500px;
-    height: 100px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    width: 1440px;
+    height: 500px;
+    background-image: url('../images/woman-code.png'), linear-gradient(#000, #000);
+    background-size: 100%;
+    background-attachment: fixed;
 }
