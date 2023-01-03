@@ -51,11 +51,20 @@ button{
     background-color: #000;
     width: 1440px;
 }
+#course-content p{
+    width: 792px;
+    height: 38px;
+    margin: auto;
+    margin-bottom: 10px;
+}
 #course-content h2{
     color: #33A8DB;
+    padding-top: 100px;
+    margin-bottom: 24px;
 }
 .modules-list{
     display: inline-block;
+    margin-bottom: 50px;
 }
 .module{
     background-color: #252525;
